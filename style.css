@@ -1,6 +1,43 @@
-/* Universal Styles*/
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+}
 
-html {
-color:aliceblue;
+a {
+    color: seashell;
+    text-decoration: none; /* Removes underline */
+}
 
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    padding: 0 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+}
+
+nav span {
+    margin: 0 15px;
+}
 }

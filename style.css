@@ -134,3 +134,78 @@ nav span {
     text-transform: uppercase; /* Bold and modern look */
     
 }
+
+/* Locations Section */
+#locations {
+    background-image: url('img-locations-background.webp'); /* Correct background image */
+    background-size: cover;
+    background-position: center;
+    color: seashell;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#locations h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Location Grid */
+.location-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
+.location-item {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: seashell;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.location-item h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.location-item p {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.location-item .opacity {
+    opacity: 0.7;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: seashell;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the footer background */
+}
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer h5 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
